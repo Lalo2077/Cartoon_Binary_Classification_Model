@@ -44,6 +44,10 @@ For example, some images ended up displaying only the body without the character
 
 As a result, only rotation augmentation was retained to add variety to the training data. All images were resized to (150, 150) before being passed to the model.
 
+The class mode parameter is set to *'categorical'* in the image generator because the dataset involves multiple classes.
+
 # Examples of data augmentation 
 ![image](https://github.com/user-attachments/assets/f56642d7-deaf-44b8-867e-466f4f5ae6d1)
 
+# References
+Bhav09, “Dragon Ball Super Saiyan Dataset,” Kaggle, 2022. [Online]. Available: https://www.kaggle.com/datasets/bhav09/dragon-ball-super-saiyan-dataset
