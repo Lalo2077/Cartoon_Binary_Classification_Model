@@ -1,6 +1,6 @@
 # Cartoon_Binary_Classification_Model
 
-*José Eduardo Díaz Maldonado - A01735676
+*José Eduardo Díaz Maldonado - A01735676*
 
 Supervised learning model for the binary classification of images of the cartoon characters Tom and Jerry using Convolutional Neural Networks (CNNs). The original idea of multiclassification of saiyan characters from Dragon Ball was scrapped.
 
@@ -20,7 +20,7 @@ With this reasoning, most images with other characters different from the two cl
 The dataset is organized into three directories: *train*, *validation* and *test*, each with two categories.
 
 | Class  | Train images | Validation Images | Test images |
-| ------------- | ------------- | ------------- | 
+| ------------- | ------------- | ------------- | ------------- | 
 | tom | 800 | 180 | 180 
 | jerry  | 800 | 180 | 180
 
@@ -37,6 +37,7 @@ All images were resized to (150, 150) before being passed to the model.
 The class mode parameter is set to *'categorical'* in the image generator because the dataset involves multiple classes.
 
 # Examples of data augmentation 
+![image](https://github.com/user-attachments/assets/804ef9b7-d793-4876-bd93-f835aa26517e)
 
 
 
@@ -44,4 +45,4 @@ The class mode parameter is set to *'categorical'* in the image generator becaus
 
 
 # References
-Bhav09, “Dragon Ball Super Saiyan Dataset,” Kaggle, 2022. [Online]. Available: https://www.kaggle.com/datasets/bhav09/dragon-ball-super-saiyan-dataset
+B. Balabaskar, “Tom and Jerry Image Classification,” Kaggle, 2021. [Online]. Available: https://www.kaggle.com/datasets/balabaskar/tom-and-jerry-image-classification.
