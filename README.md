@@ -34,6 +34,8 @@ For model robustness, the training images are going to be preprocessed using Ten
 
 All images were resized to (150, 150) before being passed to the model.
 
+The class mode parameter is set to *'categorical'* in the image generator because the dataset involves multiple classes.
+
 # Examples of data augmentation 
 
 
@@ -41,3 +43,5 @@ All images were resized to (150, 150) before being passed to the model.
 
 
 
+# References
+Bhav09, “Dragon Ball Super Saiyan Dataset,” Kaggle, 2022. [Online]. Available: https://www.kaggle.com/datasets/bhav09/dragon-ball-super-saiyan-dataset
